@@ -2,7 +2,7 @@
 const age = +prompt('Hello please enter your AGE: ');
 
 if (age <= ''){
-  alert('its very sadly you didnt want to enter your Age');
+  alert('its very sadly you didnt want to enter your AGE');
   
 }
 
@@ -32,7 +32,7 @@ switch(city){
 }
 
 if (city <= ''){
-  alert('its very sadly you didnt want to enter your city');
+  alert('its very sadly you didnt want to enter your CITY');
 }
 
 const sport = prompt('please enter your FAVORITE SPORT (only Eng): ');
@@ -81,7 +81,7 @@ switch(sport){
 }
 
 if (sport <= ''){
-  alert('its very sadly you didnt want to enter your sport');
+  alert('its very sadly you didnt want to enter your SPORT');
 }
 
 if (age <= '' && city <= '' && sport <= '' ){
